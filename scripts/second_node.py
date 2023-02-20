@@ -1,7 +1,11 @@
+#!/usr/bin/env python3
+
+import time
+from datetime import datetime
+
+while True:
 	
-while (true) 
-do
- date;
- sleep 5; # пауза 5 секунд
-done;
+	current_time = datetime.now().time()
+	print(current_time)
+	time.sleep(5)
 
